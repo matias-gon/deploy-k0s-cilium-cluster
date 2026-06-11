@@ -8,17 +8,17 @@ spec:
     - ssh:
         address: <CP01Address>
         user: ubuntu
-        keyPath: ~/.ssh/k0s-test
+        keyPath: ~/.ssh/cilium-k0s
       role: controller
     - ssh:
         address: <Worker01Address>
         user: ubuntu
-        keyPath: ~/.ssh/k0s-test
+        keyPath: ~/.ssh/cilium-k0s
       role: worker
     - ssh:
         address: <Worker02Address>
         user: ubuntu
-        keyPath: ~/.ssh/k0s-test
+        keyPath: ~/.ssh/cilium-k0s
       role: worker
   k0s:
     version: "v1.34.5+k0s.0"
