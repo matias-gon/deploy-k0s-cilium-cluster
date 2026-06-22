@@ -1,0 +1,8 @@
+network:
+    version: 2
+    ethernets:
+        extra0:
+            dhcp4: no
+            match:
+                macaddress: "<MAC_ADDRESS>"
+            addresses: [<IP_ADDRESS>/24]
