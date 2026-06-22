@@ -1,2 +1,3 @@
 cilium-cluster.yaml
 cloud-init.yaml
+static-ip-addresses.yaml
